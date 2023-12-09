@@ -1,0 +1,21 @@
+.home__container {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0;
+}
+
+.home__content {
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 69px);
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+}

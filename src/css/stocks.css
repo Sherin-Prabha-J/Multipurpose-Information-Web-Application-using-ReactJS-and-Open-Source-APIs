@@ -1,0 +1,49 @@
+.stock__container {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input__field {
+  padding: 10px 20px;
+  background: rgba(0, 255, 255, 0.3);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin: 5px 10px;
+  margin: 20px 10px;
+}
+
+.input__field::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.submit__button {
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.submit__button:hover {
+  background: #ccc;
+}
+
+.select__options {
+  padding: 10px 20px;
+  width: 70%;
+  color: #000;
+  margin: 30px;
+}
+.select__options option {
+  color: #000;
+}

@@ -1,0 +1,117 @@
+.navbar__container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #000;
+}
+
+.navbar__container .logo{
+    font-size: 20px;
+    color: aqua;
+    font: 900;
+}
+
+.navbar__container ul{
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar__container ul li{
+    padding: 0 20px;
+}
+
+.navbar__container ul li a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar__container ul li a:hover{
+    color:aqua;
+}
+
+.mobile__navbar{
+    height: 100vh;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(20, 85, 85, 0.98);
+    transform: translateX(300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: none;
+}
+
+.mobile__navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.mobile__navbar ul a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.mobile__navbar ul li{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.mobile__navbar ul a li{
+    padding: 20px 0 ;
+    cursor: pointer;
+}
+.mobile__navbar .country{
+    height: auto;
+    display: none;
+}
+
+.country.extend{
+    display: block;
+}
+
+.mobile__navbar ul li:hover{
+    background: rgba(0, 255, 255,0.5);
+}
+
+.active{
+    transform: translateX(0px);
+}
+
+.navbar__container .navbar__button{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile__navbar .close__button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+@media screen and (max-width:727px){
+    .navbar__container .desktop__navbar{
+        display: none;
+    }
+    .mobile__navbar{
+        display: block;
+    }
+    .navbar__container .navbar__button{
+        display: block;
+    }
+}

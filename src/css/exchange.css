@@ -1,0 +1,70 @@
+.exchange-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.exchange-container h2 {
+  color: #ddd;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.currency-select {
+  margin: 0 20px 20px 20px;
+  color: #333;
+}
+
+.options {
+  color: #333;
+}
+
+.currency-select label {
+  margin-right: 0 10px 0 20px;
+  color: aqua;
+  font-size: 18px;
+}
+
+.currency-select select {
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.exchange-details {
+  margin-top: 20px;
+}
+
+.exchange-details h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.exchange-details p {
+  color: #b4b4b4;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#currency {
+  color: #000;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+}
+
+.exchange-details p span {
+  color: aqua;
+  font-size: 25px;
+  margin: 0 10px;
+}
